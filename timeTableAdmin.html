@@ -8,8 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
+  <link rel="stylesheet" type="text/css" href="jsCalendar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/timeTableAdmin.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- jsCalendar v1.4.3 Javascript and CSS from unpkg cdn -->
+  <script src="https://unpkg.com/simple-jscalendar@1.4.3/source/jsCalendar.min.js" integrity="sha384-JqNLUzAxpw7zEu6rKS/TNPZ5ayCWPUY601zaig7cUEVfL+pBoLcDiIEkWHjl07Ot" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/simple-jscalendar@1.4.3/source/jsCalendar.min.css" integrity="sha384-+OB2CadpqXIt7AheMhNaVI99xKH8j8b+bHC8P5m2tkpFopGBklD3IRvYjPekeWIJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -228,141 +232,22 @@
         </form>
       </div>
 
-      <main>
-          
+      <div class="calendar-main">
 
-          <div class="container">
-             <div class="current-month">February 2023</div>
-             <div class="monthButton">
-             <select class="month-select">
-               <option value="month">January</option>
-               <option value="month">February</option>
-               <option value="month">March</option>
-               <option value="month">April</option>
-               <option value="month">May</option>
-               <option value="month">June</option>
-               <option value="month">July</option>
-               <option value="month">August</option>
-               <option value="month">September</option>
-               <option value="month">October</option>
-               <option value="month">October</option>
-               <option value="month">December</option>                  
-             </select>
-          </div></div>
+      <!-- calendar -->
 
-              <div class="calendar">
-                <div class="calendar__header">
-                  <div>mon</div>
-                  <div>tue</div>
-                  <div>wed</div>
-                  <div>thu</div>
-                  <div>fri</div>
-                  <div>sat</div>
-                  <div>sun</div>
-                </div>
+        <div class="auto-jsCalendar green"></div>
+        <img width="20%" src="img/2023-06-12_16-05-33.png" alt="">
 
-                 <div class="calendar__head_adapt">
-                  <details class="dayofweek">
-                    <summary>Monday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style=" position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Tuesday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style=" position: relative;top: 5px;  margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Wednesday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style=" position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Thursday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style="margin-left: 74%; position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Friday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style="margin-left: 74%; position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Saturday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height="12px" style="margin-left: 74%; position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-
-                   <details class="dayofweek">
-                    <summary>Sunday <img src="img/free-icon-font-angle-down-3916903.png" alt="" width="12px" height=" 12px" style="margin-left: 74%; position: relative;top: 5px; margin-right: 5%; margin-left: auto;"> </summary>
-                    <hr>
-                    <p>15:00 - 15:40 Virtual Learning <br> 15:00 - 15:40 Virtual Learning</p>
-                  </details>
-                  
-                </div>
-                <div class="calendar__week">
-                  <div class="calendar__day day">1</div>
-                  <div class="calendar__day day">2</div>
-                  <div class="calendar__day day">3</div>
-                  <div class="calendar__day day">4</div>
-                  <div class="calendar__day day">5</div>
-                  <div class="calendar__day day">6</div>
-                  <div class="calendar__day day">7</div>
-                </div>
-                <div class="calendar__week">
-                  <div class="calendar__day day">8</div>
-                  <div class="calendar__day day">9</div>
-                  <div class="calendar__day day">10</div>
-                  <div class="calendar__day day">11</div>
-                  <div class="calendar__day day">12</div>
-                  <div class="calendar__day day">13</div>
-                  <div class="calendar__day day">14</div>        
-                </div>
-                <div class="calendar__week">
-                  <div class="calendar__day day">15</div>
-                  <div class="calendar__day day">16</div>
-                  <div class="calendar__day day">17</div>
-                  <div class="calendar__day day">18</div>
-                  <div class="calendar__day day">19</div>
-                  <div class="calendar__day day">20</div>
-                  <div class="calendar__day day">21</div>    
-                </div>
-                <div class="calendar__week">
-                  <div class="calendar__day day">22</div>
-                  <div class="calendar__day day">23</div>
-                  <div class="calendar__day day">24</div>
-                  <div class="calendar__day day">25</div>
-                  <div class="calendar__day day">26</div> 
-                  <div class="calendar__day day">27</div> 
-                  <div class="calendar__day day">28</div> 
-                </div>
-                <div class="calendar__week">
-                  <div class="calendar__day day">29</div>
-                  <div class="calendar__day day">30</div>
-                  <div class="calendar__day day">31</div>
-                  <div class="calendar__day day">1</div>
-                  <div class="calendar__day day">2</div>
-                  <div class="calendar__day day">3</div>
-                  <div class="calendar__day day">4</div>
-                </div>
-              </div>
-
-               <button class="back">BACK</button>
-            
-              
-         </main>
+      </div>
 
   </div>
 
 
 
   </div>
-
+<!-- jsCalendar script -->
+  <script type="text/javascript" src="jsCalendar.js"></script>
   <script src="js/side-bar.js"></script>
 </body>
 
