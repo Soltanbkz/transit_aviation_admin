@@ -8,6 +8,7 @@ body {
   
   *{
     font-family: 'Rubik', sans-serif !important;
+    outline: none;
     }
   /* ----------------------------------------- */
   
@@ -299,7 +300,6 @@ main .sidebar {
   margin-left: 50px;
 }
 
-
 /* BURGER MENU */
 
 .burger-content {
@@ -386,7 +386,13 @@ main .sidebar {
   text-decoration: none;
 }
 
+tr{
+  margin-right: 10px;
+}
 
+select{
+  margin-bottom: 10px !important;
+}
 
 @media screen and (min-width:601px) and (max-width:1100px) {
   .content{
@@ -442,12 +448,12 @@ main .sidebar {
     display: none;
   }
   .content {
-    padding-top: 10%;
   }
   
   .inputDiv input {
     width: 98%;
   }
+
   .addTest {
     width: auto;
     margin-left: auto;
