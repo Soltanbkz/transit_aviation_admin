@@ -4,16 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <link rel="stylesheet" href="css/addstudent.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap">
-  <link rel="stylesheet" type="text/css" href="jsCalendar.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/timeTableAdmin.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!-- jsCalendar v1.4.3 Javascript and CSS from unpkg cdn -->
-  <script src="https://unpkg.com/simple-jscalendar@1.4.3/source/jsCalendar.min.js" integrity="sha384-JqNLUzAxpw7zEu6rKS/TNPZ5ayCWPUY601zaig7cUEVfL+pBoLcDiIEkWHjl07Ot" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://unpkg.com/simple-jscalendar@1.4.3/source/jsCalendar.min.css" integrity="sha384-+OB2CadpqXIt7AheMhNaVI99xKH8j8b+bHC8P5m2tkpFopGBklD3IRvYjPekeWIJ" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,53 +20,53 @@
 
       <!-- LOGO -->
       <div class="side_bar_logo_settings">
-        <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40">
+        <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40"/>
         <p class="side_bar_logo_text"><a href="#">Aviation</a></p>
       </div>
 
-       <!-- BURGER MENU -->
+      <!-- BURGER MENU -->
 
-       <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50"
-       onclick="this.classList.toggle('active'), toggleBurgerContent()">
-       <path class="line top"
-           d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-       <path class="line middle" d="m 30,50 h 40" />
-       <path class="line bottom"
-           d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-   </svg>
+      <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50"
+        onclick="this.classList.toggle('active'), toggleBurgerContent()">
+        <path class="line top"
+            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+        <path class="line middle" d="m 30,50 h 40" />
+        <path class="line bottom"
+            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+    </svg>
 
-   <div class="burger-content" style="left: -100%;">
-       <div class="burger-content-element">
-           <img src="img/home 2.svg" alt="">
-           <p><a href="mainAfterSignUpAdmin.html">Главная</a></p>
-       </div>
-       <div class="burger-content-element">
-           <img src="img/kursy 2.svg" alt="">
-           <p><a href="coursesAfterSignUpAdmin.html">Мои курсы</a></p>
-       </div>
-       <div class="burger-content-element">
-           <img src="img/student 1.svg" alt="">
-           <p><a href="student.html">Студенты</a></p>
-       </div>
-       <div class="burger-content-element">
-           <img src="img/settings 2.svg" alt="">
-           <p><a href="profileSettingsAdmin.html">Настройки</a></p>
-       </div>
-       <div class="burger-content-element">
-           <img src="img/Group.svg" alt="">
-           <p><a href="timeTableAdmin.html">Расписание</a></p>
-       </div>
-       <div class="burger-content-element">
-           <img src="img/lenta 1.svg" alt="">
-           <p><a href="answers.html">Лента ответов</a></p>
-       </div>
-       <div class="burger-content-element-leave">
-           <img src="img/Logout.svg" alt="">
-           <p><a href="index.html">Выйти</a></p>
-       </div>
-   </div>
+    <div class="burger-content" style="left: -100%;">
+        <div class="burger-content-element">
+            <img src="img/home 2.svg" alt=""/>
+            <p><a href="mainAfterSignUpAdmin.html">Главная</a></p>
+        </div>
+        <div class="burger-content-element">
+            <img src="img/kursy 2.svg" alt=""/>
+            <p><a href="coursesAfterSignUpAdmin.html">Мои курсы</a></p>
+        </div>
+        <div class="burger-content-element">
+            <img src="img/student 1.svg" alt=""/>
+            <p><a href="student.html">Студенты</a></p>
+        </div>
+        <div class="burger-content-element">
+            <img src="img/settings 2.svg" alt=""/>
+            <p><a href="profileSettingsAdmin.html">Настройки</a></p>
+        </div>
+        <div class="burger-content-element">
+            <img src="img/Group.svg" alt=""/>
+            <p><a href="timeTableAdmin.html">Расписание</a></p>
+        </div>
+        <div class="burger-content-element">
+            <img src="img/lenta 1.svg" alt=""/>
+            <p><a href="answers.html">Лента ответов</a></p>
+        </div>
+        <div class="burger-content-element-leave">
+            <img src="img/Logout.svg" alt=""/>
+            <p><a href="index.html">Выйти</a></p>
+        </div>
+    </div>
 
-   <script src="js/burger.js"></script>
+    <script src="js/burger.js"></script>
 
       <!-- NAVIGATION LINKS-->
       <div class="side_bar_links">
@@ -91,16 +88,16 @@
         </div>
 
         <div class="side_bar_general">
-          <img class="side_bar_img" src="" alt="">
+          <img class="side_bar_img" src="" alt=""/>
           <svg width="24" height="24" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M6.20007 13.1807H1.40007C1.08181 13.1807 0.776589 13.2956 0.551545 13.5002C0.326501 13.7047 0.200073 13.9822 0.200073 14.2715V22.998C0.200073 23.2873 0.326501 23.5648 0.551545 23.7694C0.776589 23.9739 1.08181 24.0889 1.40007 24.0889H6.20007C6.51833 24.0889 6.82356 23.9739 7.0486 23.7694C7.27364 23.5648 7.40007 23.2873 7.40007 22.998V14.2715C7.40007 13.9822 7.27364 13.7047 7.0486 13.5002C6.82356 13.2956 6.51833 13.1807 6.20007 13.1807ZM5.00007 21.9072H2.60007V15.3623H5.00007V21.9072ZM25.4001 8.81738H20.6001C20.2818 8.81738 19.9766 8.93231 19.7515 9.13688C19.5265 9.34144 19.4001 9.6189 19.4001 9.9082V22.998C19.4001 23.2873 19.5265 23.5648 19.7515 23.7694C19.9766 23.9739 20.2818 24.0889 20.6001 24.0889H25.4001C25.7183 24.0889 26.0236 23.9739 26.2486 23.7694C26.4736 23.5648 26.6001 23.2873 26.6001 22.998V9.9082C26.6001 9.6189 26.4736 9.34144 26.2486 9.13688C26.0236 8.93231 25.7183 8.81738 25.4001 8.81738ZM24.2001 21.9072H21.8001V10.999H24.2001V21.9072ZM15.8001 0.0908203H11.0001C10.6818 0.0908203 10.3766 0.205746 10.1515 0.410314C9.9265 0.614883 9.80007 0.892337 9.80007 1.18164V22.998C9.80007 23.2873 9.9265 23.5648 10.1515 23.7694C10.3766 23.9739 10.6818 24.0889 11.0001 24.0889H15.8001C16.1183 24.0889 16.4236 23.9739 16.6486 23.7694C16.8736 23.5648 17.0001 23.2873 17.0001 22.998V1.18164C17.0001 0.892337 16.8736 0.614883 16.6486 0.410314C16.4236 0.205746 16.1183 0.0908203 15.8001 0.0908203ZM14.6001 21.9072H12.2001V2.27246H14.6001V21.9072Z"
-              fill="white" />
+              fill="#FB6D3A" />
           </svg>
           <p class="side_bar_text"><a href="coursesAfterSignUpAdmin.html">Мои курсы</a></p>
         </div>
         <div class="side_bar_student">
-            <img class="side_bar_img" src="" alt="">
+            <img class="side_bar_img" src="" alt=""/>
           <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M18.3283 14.8286C19.4721 13.9287 20.307 12.6946 20.7168 11.2982C21.1266 9.90168 21.0909 8.4122 20.6147 7.03694C20.1386 5.66168 19.2456 4.46902 18.0601 3.62489C16.8745 2.78077 15.4554 2.32715 14 2.32715C12.5446 2.32715 11.1255 2.78077 9.93991 3.62489C8.75437 4.46902 7.8614 5.66168 7.38524 7.03694C6.90909 8.4122 6.87343 9.90168 7.28322 11.2982C7.69301 12.6946 8.52787 13.9287 9.67166 14.8286C7.71175 15.6138 6.00166 16.9161 4.7237 18.5968C3.44574 20.2775 2.64782 22.2734 2.415 24.3719C2.39814 24.5251 2.41163 24.6801 2.45469 24.8281C2.49775 24.9761 2.56954 25.1142 2.66596 25.2344C2.86068 25.4773 3.14391 25.6329 3.45333 25.6669C3.76275 25.7009 4.07302 25.6107 4.31588 25.4159C4.55874 25.2212 4.71429 24.938 4.74833 24.6286C5.00451 22.348 6.09196 20.2417 7.80292 18.7122C9.51387 17.1826 11.7284 16.3371 14.0233 16.3371C16.3183 16.3371 18.5328 17.1826 20.2437 18.7122C21.9547 20.2417 23.0421 22.348 23.2983 24.6286C23.33 24.9152 23.4668 25.18 23.6823 25.3717C23.8977 25.5635 24.1766 25.6686 24.465 25.6669H24.5933C24.8992 25.6317 25.1787 25.4771 25.371 25.2367C25.5633 24.9963 25.6528 24.6897 25.62 24.3836C25.3861 22.2791 24.5838 20.278 23.2993 18.5948C22.0148 16.9116 20.2964 15.6096 18.3283 14.8286ZM14 14.0002C13.077 14.0002 12.1748 13.7265 11.4073 13.2138C10.6399 12.701 10.0418 11.9721 9.68856 11.1194C9.33535 10.2667 9.24293 9.32838 9.423 8.42314C9.60306 7.51789 10.0475 6.68637 10.7002 6.03373C11.3528 5.38108 12.1843 4.93663 13.0896 4.75656C13.9948 4.5765 14.9331 4.66891 15.7859 5.02212C16.6386 5.37533 17.3674 5.97347 17.8802 6.7409C18.393 7.50833 18.6667 8.41058 18.6667 9.33356C18.6667 10.5712 18.175 11.7582 17.2998 12.6334C16.4247 13.5086 15.2377 14.0002 14 14.0002Z"
@@ -117,22 +114,22 @@
 
           <div class="side_bar_timeTable">
             
-          <img class="side_bar_img" src="" alt="">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fbd63a"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Calendar / Calendar_Week"> <path id="Vector" d="M4 8H20M4 8V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2842 19.7822 18.9079C20 18.4805 20 17.9215 20 16.8036V8M4 8V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H8M20 8V7.19691C20 6.07899 20 5.5192 19.7822 5.0918C19.5905 4.71547 19.2837 4.40973 18.9074 4.21799C18.4796 4 17.9203 4 16.8002 4H16M8 4H16M8 4V2M16 4V2M16 12H8" stroke="#FB6D3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+          <img class="side_bar_img" src="" alt=""/>
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Calendar / Calendar_Week"> <path id="Vector" d="M4 8H20M4 8V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2842 19.7822 18.9079C20 18.4805 20 17.9215 20 16.8036V8M4 8V7.2002C4 6.08009 4 5.51962 4.21799 5.0918C4.40973 4.71547 4.71547 4.40973 5.0918 4.21799C5.51962 4 6.08009 4 7.2002 4H8M20 8V7.19691C20 6.07899 20 5.5192 19.7822 5.0918C19.5905 4.71547 19.2837 4.40973 18.9074 4.21799C18.4796 4 17.9203 4 16.8002 4H16M8 4H16M8 4V2M16 4V2M16 12H8" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
           
     <p class="side_bar_text"><a href="timeTableAdmin.html">Расписание</a></p>
           </div>
           <div class="side_bar_answers">
             <svg class="side_bar_img" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_624_16312)">
-                <path d="M7.29101 20.824L3.15061 21.7443C2.61471 21.8634 2.13664 21.3853 2.25575 20.8494L3.17601 16.709C2.40154 15.2604 1.99754 13.6426 2.00001 12C2.00001 6.477 6.47701 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C10.3574 22.0025 8.73963 21.5985 7.29101 20.824ZM7.58101 18.711L8.23401 19.061C9.39256 19.6801 10.6864 20.0027 12 20C13.5823 20 15.129 19.5308 16.4446 18.6518C17.7602 17.7727 18.7855 16.5233 19.391 15.0615C19.9965 13.5997 20.155 11.9911 19.8463 10.4393C19.5376 8.88743 18.7757 7.46197 17.6569 6.34315C16.538 5.22433 15.1126 4.4624 13.5607 4.15372C12.0089 3.84504 10.4004 4.00346 8.93854 4.60896C7.47674 5.21447 6.22731 6.23984 5.34825 7.55544C4.4692 8.87103 4.00001 10.4177 4.00001 12C4.00001 13.334 4.32501 14.618 4.94001 15.766L5.28901 16.419L4.7363 18.9058C4.68866 19.1201 4.87989 19.3113 5.09425 19.2637L7.58101 18.711Z" fill="#FFF"/>
+                <path d="M7.29101 20.824L3.15061 21.7443C2.61471 21.8634 2.13664 21.3853 2.25575 20.8494L3.17601 16.709C2.40154 15.2604 1.99754 13.6426 2.00001 12C2.00001 6.477 6.47701 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22C10.3574 22.0025 8.73963 21.5985 7.29101 20.824ZM7.58101 18.711L8.23401 19.061C9.39256 19.6801 10.6864 20.0027 12 20C13.5823 20 15.129 19.5308 16.4446 18.6518C17.7602 17.7727 18.7855 16.5233 19.391 15.0615C19.9965 13.5997 20.155 11.9911 19.8463 10.4393C19.5376 8.88743 18.7757 7.46197 17.6569 6.34315C16.538 5.22433 15.1126 4.4624 13.5607 4.15372C12.0089 3.84504 10.4004 4.00346 8.93854 4.60896C7.47674 5.21447 6.22731 6.23984 5.34825 7.55544C4.4692 8.87103 4.00001 10.4177 4.00001 12C4.00001 13.334 4.32501 14.618 4.94001 15.766L5.28901 16.419L4.7363 18.9058C4.68866 19.1201 4.87989 19.3113 5.09425 19.2637L7.58101 18.711Z" fill="white"/>
                 </g>
                 <defs>
                 <clipPath id="clip0_624_16312">
                 <rect width="24" height="24" fill="white"/>
                 </clipPath>
                 </defs>
-                </svg>
+                </svg>                
             <p class="side_bar_text"><a href="answers.html">Лента ответов</a></p>
           </div>
       </div>
@@ -143,11 +140,11 @@
         <a href="login.html"><button class="leave">Выйти</button></a> 
        </div>
     </div>
-
+    <!-- side-bar -->
     <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
       <a href="mainAfterSignUpAdmin.html">
       <div class="sidebar-logo">
-        <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40">
+        <img class="side_bar_logo" src="img/logo.png" alt="" width="40" height="40"/>
         <p class="">Aviation</p>
       </div>
       </a>
@@ -200,105 +197,150 @@
         <span class="sidebar_text red">Выйти</span>
       </a>
     </div>
-    <!-- -->
-    <div class="content">
+    <!--Main -->
 
-       <!-- search-input -->
+      <div class="content">
 
-       <div class="content-header">
+        <h2>Добавить студента</h2>
 
-        <h2>Мое расписание</h2>
-        <form class="form">
-          <label for="search">
-            <svg width="17px" height="17px"  viewBox="0 0 24 24" aria-hidden="true"
-                class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
-                <g>
-                  <path
-                    d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-                  </path>
-                </g>
-              </svg>
-            <input class="input" type="text" required="" placeholder="Search" id="search">
-          </label>
-        </form>
-      </div>
+        <div class="profile">
 
-      <div class="calendar" id="calendar-app">
-        <div class="calendar--day-view" id="day-view">
-          <span class="day-view-exit" id="day-view-exit">&times;</span>
-          <span class="day-view-date" id="day-view-date">MAY 29 2016</span>
-          <div class="day-view-content">
-            <div class="day-highlight">
-              You <span class="day-events" id="day-events">had no events for today</span>. &nbsp; <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();" class="day-events-link" id="add-event" data-date>Add a new event?</span>
+          <div class="profile-img">
+
+            <img src="img/profileImg.png" alt=""/>
+
+            <div class="profileText">
+              <h3>Photo</h3>
+              <p>This will be displayed on your profile.</p>
+
             </div>
-            <div class="day-add-event" id="add-day-event-box" data-active="false">
-              <div class="row">
-                <div class="half">
-                  <label class="add-event-label">
-                     Name of event
-                    <input type="text" class="add-event-edit add-event-edit--long" placeholder="New event" id="input-add-event-name">
-                   
-                  </label>
-                </div>
-                <div class="qtr">
-                  <label class="add-event-label">
-                Start Time
-                    <input type="text" class="add-event-edit" placeholder="8:15" id="input-add-event-start-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
-                    <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-start-ampm" data-options="a,p,am,pm">
-                  </label>
-                </div>
-                <div class="qtr">
-                  <label class="add-event-label">
-                End Time
-                    <input type="text" class="add-event-edit" placeholder="9" id="input-add-event-end-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
-                    <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-end-ampm" data-options="a,p,am,pm">
-                  </label>
-                </div>
-                <div class="half">
-                  <a onkeyup="if(event.keyCode != 13) return; this.click();" tabindex="0" id="add-event-save" class="event-btn--save event-btn">save</a>
-                  <a tabindex="0" id="add-event-cancel" class="event-btn--cancel event-btn">cancel</a>
-                </div>
-              </div>
-              
-            </div>
-            <div id="day-events-list" class="day-events-list">
-              
-            </div>
-            <div class="day-inspiration-quote" id="inspirational-quote">
-              Every child is an artist.  The problem is how to remain an artist once he grows up. –Pablo Picasso
-            </div>
+
           </div>
-        </div>
-        <div class="calendar--view" id="calendar-view">
-          <div class="cview__month">
-            <span class="cview__month-last" id="calendar-month-last">Apr</span>
-            <span class="cview__month-current" id="calendar-month">May</span>
-            <span class="cview__month-next" id="calendar-month-next">Jun</span>
+
+          <!-- profileInfo -->
+
+          <div class="profileInfo">
+
+            <!-- profileFrom -->
+
+            <div class="profile_info_div">
+
+              <!-- profile Inputs -->
+
+              <form class="profile-form" action="">
+
+                  <div class="inputsDiv">
+                    <label for="">Name</label>
+                    <div class="group">
+                      <svg class="icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_582_2735)">
+                          <path
+                            d="M14.25 5.75075C14.25 8.6495 11.8995 11.0008 9 11.0008C6.1005 11.0008 3.75 8.6495 3.75 5.75075C3.75 2.8505 6.1005 0.5 9 0.5C11.8995 0.5 14.25 2.8505 14.25 5.75075ZM13.0515 11.1357C11.922 11.9885 10.521 12.5007 9 12.5007C7.4775 12.5007 6.07575 11.987 4.94475 11.1342C1.89075 12.479 0 16.6663 0 18.5H18C18 16.6828 16.05 12.4955 13.0515 11.1357Z"
+                            fill="#727272" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_582_2735">
+                            <rect width="18" height="18" fill="white" transform="translate(0 0.5)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <input placeholder="Markh David" type="text" class="input"/>
+                    </div>
+                  </div>
+
+                  <div class="inputsDiv">
+                    <label for="">Email address</label>
+                    <div class="group">
+                      <svg class="icon" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.6875 2.75C0.755859 2.75 0 3.50586 0 4.4375C0 4.96836 0.249609 5.46758 0.675 5.7875L8.325 11.525C8.72578 11.8238 9.27422 11.8238 9.675 11.525L17.325 5.7875C17.7504 5.46758 18 4.96836 18 4.4375C18 3.50586 17.2441 2.75 16.3125 2.75H1.6875ZM0 6.6875V14C0 15.241 1.00898 16.25 2.25 16.25H15.75C16.991 16.25 18 15.241 18 14V6.6875L10.35 12.425C9.54844 13.0262 8.45156 13.0262 7.65 12.425L0 6.6875Z"
+                          fill="#727272" />
+                      </svg>
+
+                      <input placeholder="David123@gmail.com" type="email" class="input"/>
+                    </div>
+                  </div>
+
+                  <div class="inputsDiv">
+                    <label for="">Departament</label>
+                    <div class="group">
+                      <svg class="icon" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M3.6 4.71875C3.22594 4.71875 2.925 4.34258 2.925 3.875C2.925 3.40742 3.22594 3.03125 3.6 3.03125C3.97406 3.03125 4.275 3.40742 4.275 3.875C4.275 4.34258 3.97406 4.71875 3.6 4.71875ZM4.5 6.45195C5.29594 6.01953 5.85 5.02813 5.85 3.875C5.85 2.32109 4.84312 1.0625 3.6 1.0625C2.35687 1.0625 1.35 2.32109 1.35 3.875C1.35 5.02813 1.90406 6.01953 2.7 6.45195V8.375H0.9C0.402187 8.375 0 8.87773 0 9.5C0 10.1223 0.402187 10.625 0.9 10.625H8.1V12.548C7.30406 12.9805 6.75 13.9719 6.75 15.125C6.75 16.6789 7.75687 17.9375 9 17.9375C10.2431 17.9375 11.25 16.6789 11.25 15.125C11.25 13.9719 10.6959 12.9805 9.9 12.548V10.625H17.1C17.5978 10.625 18 10.1223 18 9.5C18 8.87773 17.5978 8.375 17.1 8.375H15.3V6.45195C16.0959 6.01953 16.65 5.02813 16.65 3.875C16.65 2.32109 15.6431 1.0625 14.4 1.0625C13.1569 1.0625 12.15 2.32109 12.15 3.875C12.15 5.02813 12.7041 6.01953 13.5 6.45195V8.375H4.5V6.45195ZM15.075 3.875C15.075 4.34258 14.7741 4.71875 14.4 4.71875C14.0259 4.71875 13.725 4.34258 13.725 3.875C13.725 3.40742 14.0259 3.03125 14.4 3.03125C14.7741 3.03125 15.075 3.40742 15.075 3.875ZM9 15.9688C8.62594 15.9688 8.325 15.5926 8.325 15.125C8.325 14.6574 8.62594 14.2812 9 14.2812C9.37406 14.2812 9.675 14.6574 9.675 15.125C9.675 15.5926 9.37406 15.9688 9 15.9688Z"
+                          fill="#727272" />
+                      </svg>
+
+                      <input placeholder="Account" type="text" class="input"/>
+                    </div>
+                  </div>
+                  <div class="inputsDiv">
+                    <label for="">Date of Birth</label>
+                    <div class="group">
+
+                      <svg class="icon" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14.625 2.75H12.9375V2.1875C12.9375 2.03832 12.8782 1.89524 12.7727 1.78975C12.6673 1.68426 12.5242 1.625 12.375 1.625C12.2258 1.625 12.0827 1.68426 11.9773 1.78975C11.8718 1.89524 11.8125 2.03832 11.8125 2.1875V2.75H6.1875V2.1875C6.1875 2.03832 6.12824 1.89524 6.02275 1.78975C5.91726 1.68426 5.77418 1.625 5.625 1.625C5.47582 1.625 5.33274 1.68426 5.22725 1.78975C5.12176 1.89524 5.0625 2.03832 5.0625 2.1875V2.75H3.375C3.07663 2.75 2.79048 2.86853 2.5795 3.0795C2.36853 3.29048 2.25 3.57663 2.25 3.875V15.125C2.25 15.4234 2.36853 15.7095 2.5795 15.9205C2.79048 16.1315 3.07663 16.25 3.375 16.25H14.625C14.9234 16.25 15.2095 16.1315 15.4205 15.9205C15.6315 15.7095 15.75 15.4234 15.75 15.125V3.875C15.75 3.57663 15.6315 3.29048 15.4205 3.0795C15.2095 2.86853 14.9234 2.75 14.625 2.75ZM11.918 9.90781L8.63438 13.0016C8.58332 13.0516 8.52286 13.091 8.45649 13.1176C8.39011 13.1441 8.31914 13.1573 8.24766 13.1562C8.10357 13.1568 7.9649 13.1013 7.86094 13.0016L6.08203 11.3141C6.02489 11.2642 5.97842 11.2033 5.94541 11.135C5.9124 11.0668 5.89354 10.9925 5.88996 10.9168C5.88637 10.841 5.89814 10.7654 5.92456 10.6943C5.95097 10.6232 5.99149 10.5582 6.04366 10.5032C6.09584 10.4481 6.15861 10.4042 6.22819 10.3741C6.29777 10.3439 6.37273 10.3282 6.44856 10.3277C6.52439 10.3273 6.59953 10.3422 6.66946 10.3715C6.73938 10.4008 6.80265 10.444 6.85547 10.4984L8.24766 11.8203L11.1445 9.09219C11.1977 9.0406 11.2606 9.00015 11.3296 8.97323C11.3985 8.94631 11.4722 8.93345 11.5462 8.93542C11.6203 8.93738 11.6932 8.95413 11.7606 8.98467C11.8281 9.01522 11.8887 9.05895 11.9391 9.11328C12.0415 9.2215 12.0968 9.36595 12.0929 9.51491C12.0889 9.66387 12.026 9.80518 11.918 9.90781ZM14.625 6.125H3.375V3.875H5.0625V4.4375C5.0625 4.58668 5.12176 4.72976 5.22725 4.83525C5.33274 4.94074 5.47582 5 5.625 5C5.77418 5 5.91726 4.94074 6.02275 4.83525C6.12824 4.72976 6.1875 4.58668 6.1875 4.4375V3.875H11.8125V4.4375C11.8125 4.58668 11.8718 4.72976 11.9773 4.83525C12.0827 4.94074 12.2258 5 12.375 5C12.5242 5 12.6673 4.94074 12.7727 4.83525C12.8782 4.72976 12.9375 4.58668 12.9375 4.4375V3.875H14.625V6.125Z"
+                          fill="#727272" />
+                      </svg>
+
+                      <input placeholder="9/11/1985" type="date" class="input"/>
+                    </div>
+                  </div>
+
+                  <div class="inputsDiv">
+                    <label for="">Gender</label>
+                    <div class="group">
+                      <svg class="icon" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_582_2735)">
+                          <path
+                            d="M14.25 5.75075C14.25 8.6495 11.8995 11.0008 9 11.0008C6.1005 11.0008 3.75 8.6495 3.75 5.75075C3.75 2.8505 6.1005 0.5 9 0.5C11.8995 0.5 14.25 2.8505 14.25 5.75075ZM13.0515 11.1357C11.922 11.9885 10.521 12.5007 9 12.5007C7.4775 12.5007 6.07575 11.987 4.94475 11.1342C1.89075 12.479 0 16.6663 0 18.5H18C18 16.6828 16.05 12.4955 13.0515 11.1357Z"
+                            fill="#727272" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_582_2735">
+                            <rect width="18" height="18" fill="white" transform="translate(0 0.5)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <input placeholder="Male" type="text" class="input"/>
+                    </div>
+                  </div>
+
+                  <div class="inputsDiv">
+                    <label for="">Live</label>
+                    <div class="group">
+                      <svg class="icon" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_582_2795)">
+                          <path
+                            d="M9 0.5C6.639 0.5 4.5 2.41475 4.5 4.7765C4.5 7.1375 6.4515 9.95675 9 14C11.5485 9.95675 13.5 7.1375 13.5 4.7765C13.5 2.41475 11.3617 0.5 9 0.5ZM9 6.5C8.17125 6.5 7.5 5.82875 7.5 5C7.5 4.17125 8.17125 3.5 9 3.5C9.82875 3.5 10.5 4.17125 10.5 5C10.5 5.82875 9.82875 6.5 9 6.5ZM17.1608 4.62425C17.1608 3.50525 16.6065 2.50175 15.7343 1.81325L16.29 1.24925C17.3363 2.075 18 3.27875 18 4.62425C18 5.96975 17.3363 7.17425 16.29 8L15.7343 7.43525C16.6065 6.7475 17.1608 5.74325 17.1608 4.62425ZM14.625 6.311L15.18 6.87425C15.8783 6.3245 16.3207 5.52125 16.3207 4.62425C16.3207 3.728 15.8783 2.924 15.18 2.37425L14.625 2.9375C15.1477 3.35075 15.4808 3.953 15.4808 4.62425C15.4808 5.2955 15.1477 5.8985 14.625 6.311ZM2.26575 7.43525L1.71 8C0.66375 7.17425 0 5.96975 0 4.62425C0 3.27875 0.66375 2.075 1.71 1.24925L2.26575 1.81325C1.3935 2.50175 0.83925 3.50525 0.83925 4.62425C0.83925 5.74325 1.3935 6.7475 2.26575 7.43525ZM2.51925 4.62425C2.51925 3.95225 2.8515 3.35075 3.375 2.9375L2.82 2.37425C2.12175 2.924 1.67925 3.728 1.67925 4.62425C1.67925 5.52125 2.12175 6.3245 2.82 6.87425L3.375 6.311C2.85225 5.8985 2.51925 5.29625 2.51925 4.62425ZM15 15.5C15 17.1567 12.3142 18.5 9 18.5C5.68575 18.5 3 17.1567 3 15.5C3 14.2985 4.416 13.265 6.456 12.7858L7.3215 14.1537C7.02075 14.2048 6.717 14.255 6.438 14.3353C3.954 15.047 3.84825 15.917 6.42225 16.6618C7.98825 17.114 10.005 17.1155 11.5778 16.661C14.292 15.8758 13.9507 14.9548 11.3767 14.2858C11.1547 14.228 10.911 14.1972 10.6747 14.1575L11.5417 12.7865C13.584 13.265 15 14.2985 15 15.5Z"
+                            fill="#727272" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_582_2795">
+                            <rect width="18" height="18" fill="white" transform="translate(0 0.5)" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                      <input placeholder="Zuichi, Swizerland" type="text" class="input"/>
+                    </div>
+                  </div>
+                </div>
           </div>
-          <div class="cview__header">Sun</div>
-          <div class="cview__header">Mon</div>
-          <div class="cview__header">Tue</div>
-          <div class="cview__header">Wed</div>
-          <div class="cview__header">Thu</div>
-          <div class="cview__header">Fri</div>
-          <div class="cview__header">Sat</div>
-          <div class="calendar--view" id="dates">
-          </div>
+
+          <button class="button">Добавить студента</button>
+
+          </form>
+
         </div>
-        <div class="footer">
-          <span><span id="footer-date" class="footer__link">Today is May 30</span></span>    
-        </div>
-      </div>
 
-  </div>
+        <a href=""><img src="img/next-button.svg" alt="" class="back"/></a>
 
+    </div>
 
-
-  </div>
-<!-- jsCalendar script -->
-  <script src="js/timetable.js"></script>
-  <script type="text/javascript" src="jsCalendar.js"></script>
-  <script src="js/side-bar.js"></script>
+    </div>
 </body>
 
 </html>
