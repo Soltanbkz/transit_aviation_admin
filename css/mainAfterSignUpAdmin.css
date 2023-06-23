@@ -33,11 +33,6 @@ body {
   margin: 20px;
 }
 
-
-.leave-button{
-  margin-top: 10%;
-}
-
 .leave-button button{
   width: 120px;
   height: 35px;
@@ -45,6 +40,9 @@ body {
   background-color: red;
   border: none;
   border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 7%;
 }
 
 /* ----------------------------------------- */
@@ -143,8 +141,46 @@ a {
 	align-items: center;
 	margin-top: 2%;
 }
+
 /* SEARCH INPUT */
 
+.courses_sectors_images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3%;
+  gap: 20px;
+}
+
+.courses_sectors_images img{
+  width: 100%;
+  border-radius: 20px;
+  background-color: inherit;
+}
+
+.side_bar_general .side_bar_text a:hover{
+  color: #ff8356;
+  transition: 500ms;
+}
+
+.side_bar_text a:hover{
+  color: #e9e9e9;
+  transition: 500ms;
+}
+
+.training_sectors_images img{
+  border-radius: 35px;
+}
+
+.training_sectors_images img:hover{
+  box-shadow: 5px 5px 4px 3px rgba(0,0,0,0.14);
+  transition: 500ms;
+}
+
+.courses_sectors_images img:hover{
+  box-shadow: 3px 4px 5px 5px rgba(0,0,0,0.14);
+  transition: 500ms;
+}
 
 /* this is a recreation of twitter search in css */
 .content-header {
@@ -153,8 +189,6 @@ a {
   align-items: center;
   margin-top: 2%;
 }
-
-
 
 .form {
   --input-text-color: #1b9bee;
@@ -339,16 +373,6 @@ input:-webkit-autofill:active {
   }
 }
 
-.courses_sectors_images{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 3%;
-}
-
-.courses_sectors_images img{
-  width: 90%;
-}
 
 .red{
   color: #FF5757;
@@ -373,7 +397,7 @@ input:-webkit-autofill:active {
   border-right: 1px solid #003c97;
   transition: 0.5s;
   overflow-x: hidden;
-  padding-top: 60px;
+  padding-top: 30px;
   white-space: nowrap;
   display: none;
 }
@@ -389,9 +413,10 @@ input:-webkit-autofill:active {
   display: block;
 }
 
-.sidebar svg{
+.sidebar img{
   margin-bottom: -5px;
 }
+
 .orange {
   color: #FB6D3A;
 }
@@ -534,7 +559,7 @@ main .sidebar {
   }
 
   .courses_sectors_images img{
-    width: 100%;
+    width: 90%;
   }
 }
 

@@ -3,18 +3,18 @@
 	font-family: 'Rubik', sans-serif !important;
   }
 
-.leave-button{
-  margin-top: 10%;
-}
+  .leave-button button{
+    width: 120px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 7%;
+  }
 
-.leave-button button{
-  width: 120px;
-  height: 35px;
-  color: #FFFFFF;
-  background-color: red;
-  border: none;
-  border-radius: 10px;
-}
 
 /* ----------------------------------------- */
 
@@ -48,7 +48,43 @@ a {
 
 .side_bar_links {
   margin-top: 30%;
- 
+}
+
+.courses_sectors_images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.courses_sectors_images img{
+  width: 100%;
+  border-radius: 20px;
+  background-color: inherit;
+}
+
+.side_bar_general .side_bar_text a:hover{
+  color: #ff8356;
+  transition: 500ms;
+}
+
+.side_bar_text a:hover{
+  color: #e9e9e9;
+  transition: 500ms;
+}
+
+.training_sectors_images img{
+  border-radius: 35px;
+}
+
+.training_sectors_images img:hover{
+  box-shadow: 5px 5px 4px 3px rgba(0,0,0,0.14);
+  transition: 500ms;
+}
+
+.courses_sectors_images img:hover{
+  box-shadow: 3px 4px 5px 5px rgba(0,0,0,0.14);
+  transition: 500ms;
 }
 
 .side_bar_general {
