@@ -211,16 +211,6 @@ label {
   background-color: inherit;
 }
 
-.side_bar_general .side_bar_text a:hover{
-  color: #ff8356;
-  transition: 500ms;
-}
-
-.side_bar_text a:hover{
-  color: #e9e9e9;
-  transition: 500ms;
-}
-
 .training_sectors_images img{
   border-radius: 35px;
 }
@@ -479,20 +469,25 @@ form h2{
     stroke-linecap: round;
   }
   
-  .ham1 .top {
-    stroke-dasharray: 40 139;
+  .ham3 .top {
+    stroke-dasharray: 40 130;
   }
-  
-  .ham1 .bottom {
-    stroke-dasharray: 40 180;
+  .ham3 .middle {
+    stroke-dasharray: 40 140;
   }
-  
-  .ham1.active .top {
-    stroke-dashoffset: -98px;
+  .ham3 .bottom {
+    stroke-dasharray: 40 205;
   }
-  
-  .ham1.active .bottom {
-    stroke-dashoffset: -138px;
+  .ham3.active .top {
+    stroke-dasharray: 75 130;
+    stroke-dashoffset: -63px;
+  }
+  .ham3.active .middle {
+    stroke-dashoffset: -102px;
+  }
+  .ham3.active .bottom {
+    stroke-dasharray: 110 205;
+    stroke-dashoffset: -86px;
   }
   
   .burger-content .burger-content-element:first-child, .burger-content-element-leave:last-child{
@@ -503,6 +498,7 @@ form h2{
     display: flex;
     align-items: center;
     margin-left: 10%;
+    margin-top: 8px;
   }
   
   .burger-content-element p a{
