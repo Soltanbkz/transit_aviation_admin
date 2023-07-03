@@ -653,6 +653,10 @@ backdrop-filter: blur(18px);
     display: none;
   }
 
+  body{
+    background-color: #fff;
+  }
+
   
   .course-info{
     margin-bottom: -80px !important;
@@ -707,13 +711,14 @@ backdrop-filter: blur(18px);
     display: block;
   }
 
-  .training_sectors_images img {
-    margin-top: 5%;
-    margin-bottom: 5%;
+  .aviation-img{
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   .training_sectors_h2 {
     margin-left: 10%;
+    margin-top: 20px;
   }
 
   .courses_sectors_images{
