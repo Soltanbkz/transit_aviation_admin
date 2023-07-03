@@ -373,7 +373,7 @@ input:-webkit-autofill:active {
   height: 100%;
   width: 85px;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   top: 0;
   left: 0;
   background-color: #22549E;
@@ -520,6 +520,57 @@ main .sidebar {
 	border-radius: 10em;
 }
 
+.aviation-text{
+  border-radius: 24px;
+  background: rgba(60, 17, 134, 0.29);
+  backdrop-filter: blur(18px);
+  padding: 8px;
+  width: 65%;
+  position: relative;
+  margin-top: -105px;
+  margin-left: 15%;
+  font-size: 14px;
+  color: #fff;
+ }
+
+ .course-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-bottom: -60px;
+  color: #fff;
+ }
+
+ .aviation-img{
+  margin-top: 5%;
+ }
+
+ .aviation-text-industry{
+  border-radius: 24px;
+  background: rgba(148, 37, 57, 0.30);
+backdrop-filter: blur(18px);
+  padding: 2%;
+  width: 65%;
+  position: relative;
+  margin-top: -105px;
+  font-size: 14px;
+  margin-left: 15%;
+  color: #fff;
+ }
+ .course-type h3{
+  font-size: 16px;
+ }
+
+ .course-minutes{
+  border-radius: 10px;
+  background: #FB6D3A;
+  outline: none;
+  border: none;
+  padding: 8px;
+  color: #fff;
+  backdrop-filter: blur(8px);
+ }
 
 @media screen and (max-height: 450px) {
   .sidebar {
@@ -528,6 +579,30 @@ main .sidebar {
 
   .sidebar a {
       font-size: 18px;
+  }
+}
+
+@media (min-width:601px) and (max-width:920px) {
+  .training_sectors_images{
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 20%;
+    justify-content: center;
+  }
+
+  .training_sectors_images img{
+    width: 60%;
+  }
+
+  .aviation-text, .aviation-text-industry{
+    width: 45%;
+  }
+  .course-info{
+    width: 80%;
+  }
+
+  .all_page{
+    height: 100%;
   }
 }
 
@@ -541,6 +616,7 @@ main .sidebar {
     display: flex;
     align-items: center;
   }
+
 
   .sidebar_text{
     margin-left: 30px;
@@ -575,6 +651,15 @@ main .sidebar {
 
   .side_bar_links{
     display: none;
+  }
+
+  
+  .course-info{
+    margin-bottom: -80px !important;
+  }
+
+  .aviation-text, .aviation-text-industry{
+    margin-top: -120px;
   }
 
   .side_bar{

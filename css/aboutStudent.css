@@ -757,14 +757,17 @@ a {
 		height: 35px;
 		padding: 0;
 	}
+
 	.password-title {
 		font-size: 19px;
 	}
+
 	.all_page .content {
 		margin: 0;
 		border-radius: 0;
 		padding-top: 80px;
 	}
+
 	.h2 {
 		margin-left: 0;
 	}
