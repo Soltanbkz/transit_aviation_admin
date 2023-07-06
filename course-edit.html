@@ -191,14 +191,24 @@
       <div class="main-content">
         <div class="main_header">
           <h3>Тип курса:</h3>
-          <div class="course-type">
-            <select onchange="window.location.href = this.options[this.selectedIndex].value">
-              <option value="#" selected>Авиационный</option>
-
-              <option value="#">Промышленные</option>
-              <option value="addInCourse.html">Добавить курс</option>
-            </select>
-          </div>
+          <details class="custom-select">
+            <summary class="radios">
+              <input type="radio" name="item" id="default" title="Тип курса" checked>
+              <input type="radio" name="item" id="item1" title="Авиационные">
+              <input type="radio" name="item" id="item2" title="Промышленные">
+            </summary>
+            <ul class="list">
+              <li>
+                <label for="item1">
+                  Авиационные
+                  <span></span>
+                </label>
+              </li>
+              <li>
+                <label for="item2">Промышленные</label>
+              </li>
+            </ul>
+          </details>
         </div>
         <div class="course-info">
 
@@ -213,20 +223,20 @@
               <h4>Виртуальное обучение</h4>
               <img src="./img/free-icon-font-angle-down-3916903.png" alt="" class="module-arrow" />
             </div>
-            <div class="module">
+            <div class="module" >
               <img src="./img/risunok5.png" alt="" class="module-profile" />
-              <span class="module-text">
+              <span class="module-text module-name" onclick="this.classList.add('active')">
                 Модуль 1
               </span>
               <img src="./img/free-icon-pen-5886215.png" alt="" class="module-pen" />
             </div>
-            <div class="lesson module"><img src="./img/risunok5.png" alt="" class="module-profile" />
+            <div class="lesson module  lesson-name"><img src="./img/risunok5.png" alt="" class="module-profile" />
               <span class="module-text">
                 Урок 1
               </span>
               <img src="./img/free-icon-pen-5886215.png" alt="" class="module-pen" />
             </div>
-            <div class="lesson module"><img src="./img/risunok5.png" alt="" class="module-profile" />
+            <div class="lesson module lesson-name"><img src="./img/risunok5.png" alt="" class="module-profile" />
               <span class="module-text">
                 Урок 2
               </span>
@@ -265,14 +275,17 @@
       </div>
     </div>
   </div>
-  </div>
-  </div>
-
-  </div>
-  </div>
-  </div>
 </body>
 <script src="js/side-bar.js"></script>
+<script>
+  const module = document.querySelector('.module');
+  const moduleName = module.querySelector('.module-name');
+  const lessonName = module.querySelector('.lesson-name');
+
+  moduleName.addEventListener('click', () => {
+    lessonName.classList.toggle('active');
+  });
+</script>
 
 
 </html>

@@ -1112,7 +1112,7 @@ main {
 
 .search-footer {
   width: 70%;
-  margin: 0 auto;
+  margin-left: 30%;
   position: relative;
   display: flex;
   align-items: center;
@@ -1123,7 +1123,7 @@ main {
   width: 350px;
   border-radius: 30px;
   border-color: #1b9bee;
-  padding: 19px 0 19px 25px;
+  padding: 15px 0 15px 15px;
   outline: none;
 }
 

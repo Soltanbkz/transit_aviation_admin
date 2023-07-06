@@ -455,3 +455,10 @@ body {
     justify-content: center;
   }
   }
+
+  .file{
+    position: absolute;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0;
+  }
