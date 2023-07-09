@@ -153,7 +153,6 @@ a {
   margin-left: 3%;
 }
 
-
 .training_sectors_images img{
   border-radius: 35px;
 }
@@ -318,6 +317,11 @@ input:-webkit-autofill:active {
 .training_sectors_images {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.training_sectors_images .rel{
+  width: 400px;
 }
 
 /* training_sectors_images img style */
@@ -733,4 +737,10 @@ backdrop-filter: blur(18px);
     margin-right: auto;
     display: block;
   }
+}
+
+.overflow{
+  overflow-x: scroll;
+  overflow-y:inherit;
+  white-space: nowrap;
 }

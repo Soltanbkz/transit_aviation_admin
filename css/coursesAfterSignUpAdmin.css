@@ -585,6 +585,42 @@ main .sidebar {
   transform: rotate(180deg);
 }
 
+
+.hidden{
+  display: none;
+}
+
+.btn-container button:hover{
+  background-color: #0353a4;
+  color: white;
+  position: relative;
+  top: 3px; 
+  box-shadow: 0 5px 5px rgb(220, 220, 220);
+}
+
+.text-courses{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-courses .btn-container{
+  margin-top: 2%;
+  margin-right: 20px;
+}
+
+.btn-container button{
+  width: 150px;
+  border-radius: 40px;
+  border-color: #0353a4;
+  color: #0353a4;
+  background-color: transparent;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 15px;
+}
+
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
